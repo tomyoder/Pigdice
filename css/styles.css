@@ -1,0 +1,10 @@
+.dice1, .dice2 {
+  width: 70px;
+  height: 70px;
+  border: black 3px solid;
+  margin-left: 10px;
+}
+
+.buttons {
+  margin-top: 20px;
+}
