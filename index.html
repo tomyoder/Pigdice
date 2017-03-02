@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.1.1.min.js"></script>
-    <script src="js/scripts.js"></script>
+    <script src="scripts.js"></script>
     <title>Pig Dice</title>
   </head>
   <body>
@@ -37,7 +37,7 @@
           </div>
           <div class="buttons">
             <button id="roll1" class="btn bg-success">Roll</button>
-            <button class="btn bg-warning">Hold</button>
+            <button id="hold1" class="btn bg-warning">Hold</button>
           </div>
         </div>
         <div class="col-md-6">
@@ -46,26 +46,38 @@
           </div>
           <div class="buttons">
             <button id="roll2" class="btn bg-success">Roll</button>
-            <button class="btn bg-warning">Hold</button>
+            <button id="hold2" class="btn bg-warning">Hold</button>
           </div>
         </div>
       </div>
 
       <div class="row">
-        <div class="col-md-6 gameTotal1">
+        <div class="col-md-6">
           <p>Game Total:</p>
-        </div>
-        <div class="col-md-6 gameTotal2">
+          <div class="gameTotal1">
+            <p></p>
+          </div>
+       </div>
+        <div class="col-md-6">
           <p>Game Total:</p>
+          <div class="gameTotal2">
+            <p></p>
+          </div>
         </div>
       </div>
 
       <div class="row">
-        <div class="col-md-6 pointsToWin1">
+        <div class="col-md-6">
           <p>Points to Win:</p>
+          <div class="pointsToWin1">
+            <p></p>
+          </div>
         </div>
-        <div class="col-md-6 pointsToWin2">
+        <div class="col-md-6">
           <p>Points to Win:</p>
+          <div class="pointsToWin2">
+            <p></p>
+          </div>
         </div>
       </div>
 

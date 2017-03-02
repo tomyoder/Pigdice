@@ -7,6 +7,7 @@
 
 .buttons {
   margin-top: 20px;
+  margin-bottom: 30px;
 }
 
 .dice1 p, .dice2 p {
@@ -16,7 +17,13 @@
 }
 
 .gameTotal1 p, .gameTotal2 p {
-  font-size: 50px;
-  text-align: center;
+  font-size: 35px;
+  text-align: left;
+  margin-top: 10px;
+}
+
+.pointsToWin1 p, .pointsToWin2 p, {
+  font-size: 35px;
+  text-align: left;
   margin-top: 10px;
 }
